@@ -25,13 +25,20 @@ body {
 }
 
 .card {
-    height: 550px;
-    width: 500px;
+    height: auto;
+    width: 30%;
     display: grid;
-    grid-template-rows: 2fr 1.5fr 1fr;
-    margin-top: 25%;
+    grid-template-rows: 1.5fr 1.5fr 1fr;
     border-radius: 20px;
     box-shadow: 1px 1px 5px 2px var(--shadow), -1px -1px 5px 2px var(--shadow);
+}
+
+#top-bg {
+    z-index: -1;
+}
+
+#bottom-bg {
+    z-index: -1;
 }
 
 .card .section-1 {
@@ -41,6 +48,17 @@ body {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+#dp {
+    border: 10px solid white;
+    border-radius: 50%;
+    align-self: center;
+    float: inline-end;
 }
 
 .card .section-2 {
@@ -122,4 +140,10 @@ h3 {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 2rem;
     color: var(--very-dark-desaturated-blue);
+}
+
+@media (max-width:375px) {
+    .card {
+        width: 90%;
+    }
 }
