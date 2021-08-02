@@ -52,7 +52,7 @@ main {
 }
 
 .card .section-1 {
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url(/frontEndMentor-Profile-Card/bg-pattern-card.svg);
     background-size: cover;
     height: 150px;
     width: 100%;
