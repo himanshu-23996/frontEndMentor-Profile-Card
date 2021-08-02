@@ -15,5 +15,5 @@
 ## Still there are a few mistakes, namely:
 <ul>
     <li>Adjustment of background image while resizing the desktop screen</li>
-    <li>Overflow of background image in mobile version</li>
+    <li>Overflow of background image in mobile & desktop version</li>
 </ul>
