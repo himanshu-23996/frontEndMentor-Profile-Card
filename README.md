@@ -12,8 +12,8 @@
     <li>Media query</li>
 </ul>
 
-## Still there are a few mistakes, namely:
+## New topics learnt:
 <ul>
-    <li>Adjustment of background image while resizing the desktop screen</li>
+    <li>Adjustment of background image while resizing the desktop screen using calc function, using left & right & top & bottom values with background-position</li>
     <li>Overflow of background image in mobile & desktop version</li>
 </ul>
